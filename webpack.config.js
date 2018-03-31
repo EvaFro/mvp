@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 var BUILD_DIR = path.resolve(dirname, 'client/public');
 var APP_DIR = path.resolve(dirname, 'client/src');
@@ -18,7 +19,10 @@ var config = {
         loader : 'babel-loader'
       }
     ]
-  }
+  },
+  plugins: [
+    new Dotenv()
+  ]
 };
 
 module.exports = config;
