@@ -2,21 +2,24 @@ var webpack = require('webpack');
 var path = require('path');
 const Dotenv = require('dotenv-webpack');
 
-var BUILD_DIR = path.resolve(dirname, 'client/public');
-var APP_DIR = path.resolve(dirname, 'client/src');
+var BUILD_DIR = path.resolve(__dirname, 'client/public');
+var SRC_DIR = path.resolve(__dirname, 'client/src');
 
 var config = {
-  entry: APP_DIR + '/App.jsx',
+  entry: `${SRC_DIR}/App.jsx`,
   output: {
-    path: BUILD_DIR,
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    path: BUILD_DIR
   },
   module : {
     loaders : [
       {
-        test : /.jsx?/,
-        include : APP_DIR,
-        loader : 'babel-loader'
+        test : /\.jsx?/,
+        include : SRC_DIR,
+        loader : 'babel-loader',      
+        query: {
+          presets: ['react', 'es2015']
+       }
       }
     ]
   },
