@@ -1,0 +1,6 @@
+
+// characters
+https://gateway.marvel.com:443/v1/public/characters?name=Thor&apikey=e400800cdb58730248825ebc997d14ff
+
+// events
+https://gateway.marvel.com:443/v1/public/events?name=infinity%20war&apikey=e400800cdb58730248825ebc997d14ff

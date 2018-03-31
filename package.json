@@ -25,7 +25,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "webpack -d",
-    "server-dev": "nodemon server/index.js",
+    "server-dev": "nodemon server/server.js",
     "react-dev": "webpack -d --watch"
   },
   "repository": {
