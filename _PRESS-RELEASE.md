@@ -35,7 +35,7 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
-  This app lists all the confermed characters that will be in the film AND give you the total Marval history of that character!
+  This app lists all the confermed characters of that will be in the upcoming Marvel Avengers Infinity War AND give you the total Marval history of that character!
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
