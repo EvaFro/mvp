@@ -1,4 +1,5 @@
 # Project Name #
+Marvel Infinity War Character Page
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -18,27 +19,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  Marvel Geek Out Corner
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-
+  Prepareing for Marvel's Infinity War Movie? Do you know your favorite character's history?
+  
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+ Are you excited for the upcoming movie the Avengers: Infinity War? But want a refesher of the movies & characters leading up to this multi-francise and multi-character movie! Marvel Character Geek Out Corner is your one stop page for learning the Marvel history of the top 30 charactors that are confermed to be in the film, and look at the time line of movies leading up to Infinity War with trailors! We at Marvel Geek Out Corner hope you Get your Marvel Geek on and enjoy this fun app! 
 
 ## Problem ##
   > Describe the problem your product solves.
+  With this movie we are melding several movie franchies together and its hard to keep track of all favorate charactors that will appear in the upcoming Invifity War movie. 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  This app lists all the confermed characters that will be in the film AND give you the total Marval history of that character!
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  Get your Marvel Geek on!!! 
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  To get started click on the watch the Invinity war trailor! 
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "Easy to use and had fun learning the history of each Charator!!" - MarvelJuncky
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Enjoy clicking browsing through each of your favorate charactors profiles! 
