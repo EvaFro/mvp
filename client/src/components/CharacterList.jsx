@@ -1,9 +1,10 @@
 import React from 'react';
 import SuperHeroProfile from './SuperHeroProfile';
+import GridIcon from './GridIcon'
 
-const CharacterList = ({ list }) => (
+const CharacterList = (props) => (
   <div>
-    {list.map(SuperHero => <SuperHeroProfile superHero={superHero} />)}
+    {props.list.map(icon => <GridIcon icon={icon} onClick={props.displaySuperHero}/>)}
   </div>
 );
 
