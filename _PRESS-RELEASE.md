@@ -27,7 +27,7 @@ Once the project moves into development, the press release can be used as a touc
   
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
- Are you excited for the upcoming movie the Avengers: Infinity War? But want a refesher of the movies & characters leading up to this multi-francise and multi-character movie! Marvel Character Geek Out Corner is your one stop page for learning the Marvel history of the top 30 charactors that are confermed to be in the film, and look at the time line of movies leading up to Infinity War with trailors! We at Marvel Geek Out Corner hope you Get your Marvel Geek on and enjoy this fun app! 
+ Are you excited for the upcoming movie the Avengers: Infinity War!? But want a refesher of the all characters leading up to this multi-francise and multi-character movie! Marvel Character Geek Out Corner is your one stop page for learning the Marvel history of the top 30 charactors that are confermed to be in the film. We at Marvel Geek Out Corner hope you get your Marvel Geek on and enjoy this fun app! 
 
 ## Problem ##
   > Describe the problem your product solves.
