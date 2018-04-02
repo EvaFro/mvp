@@ -12,19 +12,22 @@ const SuperHeroProfile = (props) => (
     <br/>
     <h4>About</h4>
     <p>{props.superHero.description}</p>
-    <div></div>
+    <br/>
     <h4>Top 20 Comics</h4>
     <div>
       {props.superHero.comics.items.map(item => <li>{item.name}</li>)}
     </div>
+    <br/>
     <h4>Top 20 Series</h4>
     <div>
       {props.superHero.series.items.map(item => <li>{item.name}</li>)}
     </div>
+    <br/>
     <h4>Top 20 Stories</h4>
     <div>
       {props.superHero.stories.items.map(item => <li>{item.name}</li>)}
     </div>
+    <br/>
     <h4>Top 20 Events</h4>
     <div>
       {props.superHero.events.items.map(item => <li>{item.name}</li>)}
