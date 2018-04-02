@@ -1,8 +1,8 @@
 import React from 'react';
 
-const GridIcon = (props) => (
+const GridIcon = ({icon}) => (
   <div>
-    <img src={props.thubnail} alt="thubnail" />
+    <img src={icon} alt="thubnail" />
   </div>
 );
 
