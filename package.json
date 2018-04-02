@@ -9,6 +9,7 @@
     "dotenv": "^5.0.1",
     "dotenv-webpack": "^1.5.5",
     "express": "^4.16.3",
+    "md5": "^2.2.1",
     "mongoose": "^5.0.12",
     "mongoose-seed": "^0.4.1",
     "react": "^16.3.0",
