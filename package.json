@@ -28,7 +28,7 @@
     "build": "webpack -d",
     "server-dev": "nodemon server/server.js",
     "react-dev": "webpack -d --watch",
-    "seedDB": "database/seedDB.js"
+    "seedDB": "node database/seedDB.js"
   },
   "repository": {
     "type": "git",

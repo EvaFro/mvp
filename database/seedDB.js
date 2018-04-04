@@ -21,16 +21,31 @@
 // });
 
 const MongoClient = require('mongodb').MongoClient;
-const dataArray = require('./exapmleData/starterSuperHeroData');
+const dataArray = require('./data/exapmleData/starterSuperHeroData');
 
-function seedDB() {
-  MongoClient.connect('mongodb://localhost/').then((client) => {
-    const db = client.db('marvel');
-    const collection = db.collection('superHero');
-    dataArray.forEach((obj) => {
-      collection.insert(obj);
-    })
+
+const insertDocuments = function(db, callback) {
+  // Get the documents collection
+  const collection = db.collection('superHero');
+  // Insert some documents
+  collection.insertMany(dataArray, function(err, result) {
+    if(err){
+      console.log("seeding error",err)
+    }
+    // assert.equal(err, null);
+    // assert.equal(3, result.result.n);
+    // assert.equal(3, result.ops.length);
+    console.log("Inserted documents into the collection");
+    callback(result);
   });
 }
 
-seedDB();
+
+MongoClient.connect('mongodb://localhost/').then((client) => {
+  const db = client.db('marvel');
+  insertDocuments(db, function() {
+    client.close();
+  });
+});
+
+
