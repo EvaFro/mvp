@@ -1,4 +1,4 @@
-[
+data = [
   {
     "id": 1009664,
     "name": "Thor",
@@ -9121,3 +9121,5 @@
     ]
   }
 ]
+
+module.exports = data;
