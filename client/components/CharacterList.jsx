@@ -6,8 +6,10 @@ import GridIcon from './GridIcon'
 
 const CharacterList = (props) => (
   <div>
-    {props.list.map(icon => <GridIcon icon={icon} onClick={props.displaySuperHero}/>)}
+    {props.list.map(icon => <GridIcon icon={props.icon} onClick={props.displaySuperHero}/>)}
+    <SuperHeroProfile />
   </div>
+  
 );
 
 export default CharacterList;
