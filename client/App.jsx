@@ -12,7 +12,7 @@ class App extends React.Component {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/YZ1UN5gvLjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br/>
         <br/>
-        <CharacterList />
+        <CharacterList superHero={}/>
         <br/>
         <br/>
         <br/>
