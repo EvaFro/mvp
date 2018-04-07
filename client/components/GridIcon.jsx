@@ -1,9 +1,10 @@
 import React from 'react';
-import styles from './styles.css'
+import styles from './styles'
 
-const GridIcon = () => (
+const GridIcon = (props) => (
   <div className="grid-char">
     <img src="avengersIcon.jpg" alt="thubnail" />
+    <div>{props.superHero.name}</div>
   </div>
 );
 
