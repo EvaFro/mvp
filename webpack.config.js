@@ -21,7 +21,10 @@ var config = {
           presets: ['react', 'es2015']
        }
       }
-    ]
+    ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   plugins: [
     new Dotenv()
