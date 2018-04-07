@@ -6,7 +6,11 @@ import styles from './styles'
 
 const CharacterList = (props) => (
   <div className ="char-list">
-    {props.superHeroList.map(superHero => <GridIcon superHero={superHero}/>)}
+    {
+      props.superHeroList.map(
+      superHero => <GridIcon superHero={superHero} changeAppState={props.changeAppState.bind(this)} />
+      )
+    }
   </div>
   
 );
