@@ -1,13 +1,31 @@
 import React from 'react';
 import {render} from 'react-dom';
-import CharacterList from './components/CharacterList.jsx'
-import supperHeroData from '../database/data/exapmleData/starterSuperHeroData.js'
-import styles from './components/styles.css'
+import CharacterList from './components/CharacterList'
+import SuperHeroProfile from './components/SuperHeroProfile'
+import supperHeroData from '../database/data/exapmleData/starterSuperHeroData'
+import styles from './components/styles'
+
+
 
 class App extends React.Component {
   constructor(props) {
     super(props)
+    this.state = {
+      currentSuperHero : {},
+      display : 'superHero'
+    }
   }
+
+  displayPage(){
+    let page = this.state.display
+    switch(page) {
+      case 'homepage':
+        return <CharacterList superHeroList={this.props.data}/>
+      case 'superHero':
+        return <SuperHeroProfile superHero={this.state.currentSuperHero}/>
+    }
+  }
+
 
   render() {
     return (
@@ -20,7 +38,7 @@ class App extends React.Component {
         </div>
         <br/>
         <br/>
-        <CharacterList superHeroList={this.props.data}/>
+        <SuperHeroProfile superHero={this.props.data[0]}/>
         <br/>
         <br/>
         <br/>
