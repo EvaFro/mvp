@@ -1,0 +1,10 @@
+.char-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-char {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
