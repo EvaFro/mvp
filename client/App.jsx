@@ -1,10 +1,13 @@
 import React from 'react';
 import {render} from 'react-dom';
-import CharacterList from './components/CharacterList'
-import supperHeroData from '../database/data/exapmleData/starterSuperHeroData'
-import eventData from '../database/data/exapmleData/starterEventData'
+import CharacterList from './components/CharacterList.jsx'
+import supperHeroData from '../database/data/exapmleData/starterSuperHeroData.js'
 
 class App extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
   render() {
     return (
       <div>
@@ -12,7 +15,7 @@ class App extends React.Component {
         <iframe width="560" height="315" src="https://www.youtube.com/embed/YZ1UN5gvLjQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br/>
         <br/>
-        <CharacterList superHero={}/>
+        <CharacterList superHeroList={this.props.data}/>
         <br/>
         <br/>
         <br/>
@@ -22,4 +25,4 @@ class App extends React.Component {
   }
 }
 
-render(<App/>, document.getElementById('app'));
+render(<App data={supperHeroData}/>, document.getElementById('app'));
