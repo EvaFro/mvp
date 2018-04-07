@@ -10,6 +10,7 @@
     "dotenv-webpack": "^1.5.5",
     "express": "^4.16.3",
     "md5": "^2.2.1",
+    "mongodb": "^3.0.5",
     "mongoose": "^5.0.12",
     "mongoose-seed": "^0.4.1",
     "nodemon": "^1.17.3",
@@ -28,7 +29,8 @@
     "start": "node server/server.js",
     "build": "webpack -d",
     "server-dev": "nodemon server/server.js",
-    "react-dev": "webpack -d --watch"
+    "react-dev": "webpack -d --watch",
+    "seedDB": "node database/seedDB.js"
   },
   "repository": {
     "type": "git",
