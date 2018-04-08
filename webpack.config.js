@@ -2,8 +2,8 @@ var webpack = require('webpack');
 var path = require('path');
 const Dotenv = require('dotenv-webpack');
 
-var BUILD_DIR = path.resolve(__dirname, 'client/public');
-var SRC_DIR = path.resolve(__dirname, 'client/src');
+var BUILD_DIR = path.resolve(__dirname, 'public');
+var SRC_DIR = path.resolve(__dirname, 'client');
 
 var config = {
   entry: `${SRC_DIR}/App.jsx`,
@@ -20,8 +20,15 @@ var config = {
         query: {
           presets: ['react', 'es2015']
        }
-      }
-    ]
+      },
+      {
+        test: /\.css?/,
+        loader: 'style-loader!css-loader',
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.css', '.js', '.jsx'],
   },
   plugins: [
     new Dotenv()
